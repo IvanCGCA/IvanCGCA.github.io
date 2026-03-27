@@ -1,5 +1,4 @@
-// Efecto de máquina de escribir para el subtítulo
-const text = "QA Backend Engineer especializado en API Testing, Microservicios y Sistemas Financieros.";
+const text = "QA Backend & Automation Engineer especializado en API Testing, Microservicios y Sistemas Financieros.";
 let i = 0;
 
 function typeWriter() {
