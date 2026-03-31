@@ -24,14 +24,16 @@ const translations = {
         proj6_title: "Chat en Tiempo Real con WebSockets",
         proj7_title: "Sistema de Gestión de Reservas",
         proj7_desc: "• Frontend: React.js, HTML, CSS <br>• Backend: C# (ASP.NET Core) <br>• Base de datos: SQLite <br>• Web Services: API RESTful",
-        contact_title: "Contáctame",
+        contact_title: "¿Tu equipo necesita reducir los bugs en producción? Hablemos.",
         contact_wa: "Enviar Whatsapp",
         btn_cv: "Descargar CV (PDF)",
         cv_file: "CV_Ivan_Vega_ES.pdf",
         proj4_title: "Validación de Datos & Pruebas SQL con Pandas",
         proj5_title: "API de Integración de Pagos", 
         proj5_desc: "• Frontend: React.js, HTML, CSS <br>• Backend: Java (Spring Boot) <br>• Mensajería: Kafka (local) <br>• Base de datos: SQLite <br>• API: API RESTful para el backend", // <--- NUEVO
-        proj6_title: "Chat en Tiempo Real con WebSockets"
+        proj6_title: "Chat en Tiempo Real con WebSockets",
+        btn_project: "Ver Código",
+        btn_report: "📊 Ver Reporte Allure"
     },
     en: {
         nav_about: "About me",
@@ -57,7 +59,7 @@ const translations = {
         proj6_title: "Real-Time Chat with WebSockets",
         proj7_title: "Reservation Management System",
         proj7_desc: "• Frontend: React.js, HTML, CSS <br>• Backend: C# (ASP.NET Core) <br>• Database: SQLite <br>• Web Services: RESTful API",
-        contact_title: "Contact me",
+        contact_title: "Need to scale your API testing coverage? Let's connect.",
         contact_wa: "Send WhatsApp",
         btn_cv: "Download Resume (PDF)",
         cv_file: "CV_Ivan_Vega_EN.pdf",
@@ -65,6 +67,8 @@ const translations = {
         proj5_title: "Payment Integration API",
         proj5_desc: "• Frontend: React.js, HTML, CSS <br>• Backend: Java (Spring Boot) <br>• Messaging: Kafka (local) <br>• Database: SQLite <br>• API: RESTful API for the backend", 
         proj6_title: "Real-Time Chat with WebSockets",
+        btn_project: "View Code",
+        btn_report: "📊 View Allure Report"
     }
 };
 
@@ -140,4 +144,6 @@ window.onload = () => {
     
     // 3. Cargar contenido en el idioma detectado
     updateContent(currentLang);
+    console.log("%c🕵️‍♂️ ¿Buscando bugs? Como QA, ya los depuré todos.", "color: #38bdf8; font-size: 18px; font-weight: bold;");
+    console.log("%cSi estás leyendo esto, tenemos que hablar, mándame un correo a: ivan.vegaporras@hotmail.com", "color: #f8fafc; font-size: 14px;");
 };

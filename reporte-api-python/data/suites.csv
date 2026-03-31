@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","47","test_user_not_found","test","2026-03-30","passed","2026-03-30","","test_users","",""
+"Prueba negativa: Endpoint que no existe","47","test_get_invalid_endpoint","test","2026-03-30","passed","2026-03-30","","test_login","",""
+"Validar creación de un post (Equivalente a funcionalidad crítica)","505","test_create_post","test","2026-03-30","passed","2026-03-30","","test_login","",""
+"","394","test_get_users_list","test","2026-03-30","passed","2026-03-30","","test_users","",""
+"","78","test_create_user","test","2026-03-30","passed","2026-03-30","","test_users","",""
