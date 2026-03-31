@@ -194,3 +194,36 @@ h1 span { color: var(--accent-color); }
         height: 160px;
     }
 }
+
+/* Botón de cambio de idioma */
+.lang-btn {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+
+.lang-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border-color: var(--accent-color);
+}
+
+/* Efecto de cursor parpadeante para el texto mecanografiado */
+#typewriter-text::after {
+    content: '|';
+    color: var(--accent-color);
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
