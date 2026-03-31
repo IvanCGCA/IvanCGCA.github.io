@@ -5,12 +5,16 @@
     --secondary-bg: #1e293b;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; 
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
-    margin: 0;
-    scroll-behavior: smooth;
+    margin: 0;  
 }
 
 header {

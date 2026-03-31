@@ -126,10 +126,18 @@ function typeWriter() {
 
 // --- INICIALIZACIÓN ---
 window.onload = () => {    
+    // 1. FORZAR SCROLL AL INICIO Y LIMPIAR URL
+    window.scrollTo(0, 0);
+    if (window.location.hash) {
+        history.replaceState(null, null, window.location.pathname);
+    }
+
+    // 2. Configurar evento del botón de idioma
     document.getElementById('lang-toggle').addEventListener('click', () => {
         currentLang = currentLang === 'es' ? 'en' : 'es';
         updateContent(currentLang);
     });
     
+    // 3. Cargar contenido en el idioma detectado
     updateContent(currentLang);
 };
