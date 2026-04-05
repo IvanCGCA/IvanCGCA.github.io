@@ -43,7 +43,10 @@
         <div class="project-grid">
             <div class="project-card">
                 <h2 data-i18n="about_title">Sobre mí</h2>
-                <p data-i18n="about_desc">QA Backend Engineer con experiencia validando APIs, microservicios y sistemas financieros, especializado en la identificación y análisis de la causa raíz de incidencias a nivel de código, logs y bases de datos, he colaborado con equipos de desarrollo y detectado riesgos antes de producción.</p>
+                <p data-i18n="about_desc" style="text-align: center; line-height: 1.6;"></p>
+                <div style="text-align: center;">
+                    <div data-i18n="about_roles" class="roles-badge"></div>
+                </div>
                 <div class="cv-container">
                     <a href="CV_Ivan_Vega_ES.pdf" id="cv-download-link" target="_blank" rel="noopener noreferrer" class="btn-cv">
                         <i class="fas fa-file-pdf"></i><span data-i18n="btn_cv">Descargar CV (PDF)</span>
@@ -80,92 +83,192 @@
             <div class="project-card">
                 <i class="fas fa-vial"></i>
                 <h3>API Testing Portafolio</h3>
-                <p>• Postman <br>• API Testing <br>• Test Cases <br>• Bug Reports <br>• Test Strategy</p>
-                <a href="https://github.com/IvanCGCA/api-testing-portfolio" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">Postman</span>
+                    <span class="tech-tag">API Testing</span>
+                    <span class="tech-tag">Test Cases</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/api-testing-portfolio" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span> 
+                    </a>
+                </div>
             </div>
             <div class="project-card">
                 <i class="fa-brands fa-python"></i>
                 <h3 data-i18n="proj1_title">Automatización de API con Python & Pytest</h3>
-                <p>• Python <br>• Pytest <br>• Allure Reports <br>• Requests <br>• JSON</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pytest</span>
+                    <span class="tech-tag">Allure</span>
+                    <span class="tech-tag">Requests</span>
+                </div>
                 
-                <a href="https://github.com/IvanCGCA/api-testing-python" target="_blank">
-                    <span data-i18n="btn_project">Ver Código</span> <i class="fa-brands fa-github"></i>
-                </a>
-                <br><br>
-                <a href="reporte-api-python/index.html" target="_blank" style="color: var(--accent-color); font-weight: bold;">
-                    <span data-i18n="btn_report">📊 Ver Reporte Allure</span> <i class="fas fa-external-link-alt"></i>
-                </a>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/api-testing-python" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Código</span> 
+                    </a>
+                    <a href="reporte-api-python/index.html" target="_blank" class="btn-card btn-allure">
+                        📊 <span data-i18n="btn_report">Ver Reporte Allure</span> 
+                    </a>
+                </div>
             </div>
-            <div class="project-card">
+<div class="project-card">
                 <i class="fa-brands fa-python"></i>
                 <h3 data-i18n="proj2_title">Automatización de UI con Selenium WebDriver & Page Object Model (POM)</h3>
-                <p>• Python <br>• Pytest <br>• Selenium <br>• Webdriver Manager<br>• POM</p>
-                <a href="https://github.com/IvanCGCA/ui-automation-selenium" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pytest</span>
+                    <span class="tech-tag">Selenium</span>
+                    <span class="tech-tag">WebDriver Manager</span>
+                    <span class="tech-tag">POM</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/ui-automation-selenium" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span>
+                    </a>
+                </div>
             </div>
+
             <div class="project-card">
-                <i class="fa-brands fa-python"></i>&nbsp;&nbsp;<i class="fa-brands fa-github"></i>
+                <div>
+                    <i class="fa-brands fa-python"></i>&nbsp;&nbsp;<i class="fa-brands fa-github"></i>
+                </div>
                 <h3 data-i18n="proj3_title">Integración Continua (CI) con API Automation & GitHub Actions</h3>
-                <p>• GitHub Actions <br>• YAML <br>• Python <br>• Pytest</p>
-                <img src="https://github.com/IvanCGCA/api-automation-ci/actions/workflows/main.yml/badge.svg" alt="Build Status"><br>
-                <a href="https://github.com/IvanCGCA/api-automation-ci" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">GitHub Actions</span>
+                    <span class="tech-tag">YAML</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pytest</span>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <img src="https://github.com/IvanCGCA/api-automation-ci/actions/workflows/main.yml/badge.svg" alt="Build Status">
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/api-automation-ci" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span>
+                    </a>
+                </div>
             </div>
+
             <div class="project-card">
                 <i class="fa-brands fa-python"></i>
                 <h3 data-i18n="proj4_title">Validación de Datos & Pruebas SQL con Pandas</h3>
-                <p>• Python <br>• Pytest <br>• Pandas <br>• SQL (SQLite)</p>
-                <a href="https://github.com/IvanCGCA/data-validation-testing" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pytest</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">SQLite</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/data-validation-testing" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span>
+                    </a>
+                </div>
             </div>
             <div class="project-card">
                 <i class="fa-brands fa-java"></i>
                 <h3 data-i18n="proj5_title">API DE INTEGRACIÓN DE PAGOS</h3>
-                <p data-i18n="proj5_desc">• Frontend: React.js, HTML, CSS <br>• Backend: Java (Spring Boot) <br>• Mensajería: Kafka (local) <br>• Base de datos: SQLite <br>• API: API RESTful para el backend</p>
-                <a href="https://github.com/IvanCGCA/API-DE-INTEGRACION-DE-PAGOS" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">Java (Spring Boot)</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Kafka</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">RESTful API</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/API-DE-INTEGRACION-DE-PAGOS" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span>
+                    </a>
+                </div>
             </div>
+
             <div class="project-card">
                 <i class="fa-brands fa-java"></i>
                 <h3 data-i18n="proj6_title">Chat en Tiempo Real con WebSockets</h3>
-                <p>•Frontend: Vue.js 3, HTML, CSS <br>•Backend: Spring Boot (Java) <br>•WebSockets</p>
-                <a href="https://github.com/IvanCGCA/Chat-en-tiempo-real" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">Java (Spring Boot)</span>
+                    <span class="tech-tag">Vue.js 3</span>
+                    <span class="tech-tag">WebSockets</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/Chat-en-tiempo-real" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span>
+                    </a>
+                </div>
             </div>
+
             <div class="project-card">
                 <i class="fa-brands fa-react"></i>
                 <h3 data-i18n="proj7_title">Sistema de Gestión de Reservas</h3>
-                <p data-i18n="proj7_desc">• Frontend: React.js, HTML, CSS <br>• Backend: C# (ASP.NET Core) <br>• Base de datos: SQLite <br>• Web Services: API RESTful</p>
-                <a href="https://github.com/IvanCGCA/Sistema-de-Gestion-de-Reservas" target="_blank"><span data-i18n="btn_project">Ver Proyecto</span> <i class="fa-brands fa-github"></i></a>
+                <div class="tech-tags">
+                    <span class="tech-tag">C# (ASP.NET Core)</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">RESTful API</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/IvanCGCA/Sistema-de-Gestion-de-Reservas" target="_blank" class="btn-card btn-github">
+                        <i class="fa-brands fa-github"></i> <span data-i18n="btn_project">Ver Proyecto</span>
+                    </a>
+                </div>
             </div>
-        </div>
     </section>
 
     <section id="contact">
-        <h2 data-i18n="contact_title">Contáctame</h2>
-        <div class="project-grid">
-            <div class="project-card">                            
-                <i class="fa-brands fa-linkedin"></i>
-                <a href="https://www.linkedin.com/in/ivan-vega-porras/" target="_blank" id="linkedin"><span>LinkedIn</span></a>
+            <h2 data-i18n="contact_title">Contáctame</h2>
+            <div class="project-grid">
+                <div class="project-card">                            
+                    <a href="https://www.linkedin.com/in/ivan-vega-porras/" target="_blank" class="contact-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <div class="project-card">                            
+                    <a href="mailto:ivan.vegaporras@hotmail.com" class="contact-link">
+                        <i class="fa-regular fa-envelope-open"></i>
+                        <span>ivan.vegaporras@hotmail.com</span>
+                    </a>
+                </div>
+                <div class="project-card">                            
+                    <a href="https://wa.me/5513957854?text=Hola%20Iván,%20vi%20tu%20portafolio" target="_blank" class="contact-link">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span data-i18n="contact_wa">Enviar Whatsapp</span>
+                    </a>
+                </div>
+                <div class="project-card">                            
+                    <a href="https://github.com/IvanCGCA" target="_blank" class="contact-link">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
             </div>
-            <div class="project-card">                            
-                <i class="fa-regular fa-envelope-open"></i>
-                <span>ivan.vegaporras@hotmail.com</span>
-            </div>
-            <div class="project-card">                            
-                <i class="fa-brands fa-whatsapp"></i>
-                <a href="https://wa.me/5513957854?text=Hola%20Iván,%20vi%20tu%20portafolio" target="_blank">
-                    <span data-i18n="contact_wa">Enviar Whatsapp</span>
-                </a>
-            </div>
-            <div class="project-card">                            
-                <i class="fa-brands fa-github"></i>
-                <a href="https://github.com/IvanCGCA" target="_blank">
-                    <span>GitHub</span>
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
 
     <footer>
         <p>&copy; 2026 Iván Vega | QA Backend Engineer</p>
     </footer>
 
     <script src="script.js"></script>
+
+    <div id="chat-widget">
+            <div id="chat-header">
+                <span data-i18n="chat_header">🤖 Asistente de Iván</span>
+                <button id="chat-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div id="chat-body">
+                <div class="bot-msg" data-i18n="chat_welcome">¡Hola! Soy el asistente virtual de Iván. ¿En qué te puedo ayudar hoy? Elige una opción:</div>
+                <div class="chat-options">
+                    <button class="chat-opt" data-resp="chat_resp_cv" data-i18n="chat_opt_cv">📄 Descargar CV</button>
+                    <button class="chat-opt" data-resp="chat_resp_tech" data-i18n="chat_opt_tech">💻 Stack Técnico</button>
+                    <button class="chat-opt" data-resp="chat_resp_contact" data-i18n="chat_opt_contact">📬 Contacto Directo</button>
+                </div>
+            </div>
+        </div>
+        
+        <button id="chat-toggle">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+
 </body>
 </html>

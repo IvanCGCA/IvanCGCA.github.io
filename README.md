@@ -1,30 +1,35 @@
-# 🌐 Personal Web de Ivan Vega
+# 🌐 Personal Portfolio | Iván Vega
 
-Este repositorio contiene el código fuente de mi página web personal y portafolio profesional. El sitio está diseñado para presentar mi trayectoria como **Ingeniero QA Backend / Automation Specialist** y demostrar mis capacidades técnicas en el ciclo de vida del desarrollo de software.
+[![Live Site](https://img.shields.io/badge/Live_Demo-ivancgca.github.io-success?style=for-the-badge)](https://ivancgca.github.io)
 
-## 🚀 Perfil Profesional
-Ingeniero en TICs con maestría en Innovación Empresarial. Especializado en la identificación y análisis de causa raíz de incidencias a nivel de código (Java/Python), logs y bases de datos. Mi enfoque principal es garantizar la calidad del software mediante la automatización de pruebas y la implementación de flujos de Integración Continua (CI).
+## 📝 Project Overview
+This repository contains the source code for my interactive personal website and professional portfolio. It is engineered to showcase my trajectory as a **QA Backend Engineer & Automation Specialist**, demonstrating my technical capabilities across the Software Development Life Cycle (SDLC).
 
-## 🛠️ Tech Stack del Sitio
-* **Frontend:** HTML5, CSS3, JavaScript.
-* **Hosting:** GitHub Pages.
-* **Diseño:** Minimalista y Responsive (Optimizado para dispositivos móviles y escritorio).
+## 🚀 Professional Profile
+ICT Engineer with a Master's degree in Business Innovation. I specialize in **Root Cause Analysis (RCA)** at the code (Java/Python), log, and database levels. My primary focus is ensuring software reliability and performance through scalable test automation and the implementation of Continuous Integration (CI/CD) pipelines.
 
-## 🏆 Proyectos Destacados (Automation Suite)
-El portafolio incluye enlaces directos a mis implementaciones técnicas más recientes:
+## ✨ Portfolio Core Features
+This website is not just a static page; it is a live demonstration of my engineering standards:
+* 🌍 **Dynamic i18n (Bilingual):** Seamless real-time language switching (English/Spanish).
+* 📊 **Interactive Analytics:** Live integration of Allure Reports to showcase real execution metrics from my API test suites.
+* ⚙️ **CI/CD Visibility:** Real-time GitHub Actions status badges to prove code stability.
+* 🕵️ **Technical Easter Egg:** A hidden console message designed specifically for IT Recruiters and Tech Leads auditing the site.
 
-1. **[CI/CD Pipeline con GitHub Actions](https://github.com/IvanCGCA/api-automation-ci):** Automatización de pruebas de API en la nube (Ubuntu virtual environments).
-2. **[UI Automation (Selenium + POM)](https://github.com/IvanCGCA/ui-automation-selenium):** Pruebas E2E utilizando el patrón Page Object Model para alta mantenibilidad.
-3. **[Data Validation (Pandas + SQL)](https://github.com/IvanCGCA/data-validation-testing):** Auditoría automatizada de integridad y reglas de negocio en bases de datos.
-4. **[API Testing Framework](https://github.com/IvanCGCA/api-testing-python):** Pruebas robustas con Pytest y Requests con manejo de sesiones y headers.
+## 🛠️ Tech Stack
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript
+* **Hosting & Deployment:** GitHub Pages
+* **Design Pattern:** Minimalist, Mobile-First, and fully Responsive.
 
-## ⚙️ Cómo visualizar este proyecto
-Puedes visitar la versión en vivo de este portafolio en:
-👉 **[ivancgca.github.io](https://ivancgca.github.io)**
+## 🏆 Featured Projects (Automation Suite)
+The portfolio includes direct access to my most recent technical implementations:
+* **CI/CD Pipeline with GitHub Actions:** API test automation orchestrated in ephemeral cloud environments (Ubuntu VMs).
+* **UI Automation (Selenium + POM):** End-to-End (E2E) testing utilizing the Page Object Model pattern for high maintainability.
+* **Data Validation (Pandas + SQL):** Automated auditing of data integrity and business rules in relational databases.
+* **API Testing Framework:** Robust backend validation using Pytest and Requests (with Session and Header management).
 
-## 📬 Contacto
-* **LinkedIn:** https://www.linkedin.com/in/ivan-vega-porras/
-* **Email:**  ivan.vegaporras@hotmail.com
+## 📬 Let's Connect
+* **LinkedIn:** [linkedin.com/in/ivan-vega-porras](https://www.linkedin.com/in/ivan-vega-porras/)
+* **Email:** ivan.vegaporras@hotmail.com
 
 ---
-*Construido con dedicación para demostrar que la calidad no es un acto, sino un hábito.*
+*"Quality is not an act, it is a habit."*
